@@ -1,0 +1,287 @@
+/* Global */
+
+* {
+  font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+/* Chats Page */
+#ms{
+  vertical-align:middle;
+  position: abosulte;
+  margin-top: 30px!important; 
+}
+.vc{
+  padding-left: 15px;
+}
+.chats-page {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 50px; /*66px*/
+  background-color: #00505D;
+}
+
+.logo-tab {
+  padding-top: 12px;
+  position: absolute;
+  left: 22px;
+  top: 0px;
+  
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+}
+.videocall-tab{
+  position: absolute;
+  top: 22px;
+  right: 150px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+.ms-logo{
+  padding-right: 5px;
+  width: 6.5%;
+  color: white;
+}
+.logout-tab {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+/* Login Page */
+
+#login-page {
+  background-image: linear-gradient(#d9e5ee, #00505D);
+  /*background-color:  black;*/
+  /*background-image: linear-gradient(rgb(89, 21, 199), #0b0e54);*/
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+.logo-ms2 {
+  padding-right: 5px;
+  margin-left: 18px;
+  margin-top: 6px;
+  font-weight: 450;
+  width: 2.5%;
+  vertical-align: middle;
+}
+.ok{
+  margin-top: 5px;
+}
+.logo-ms3 {
+  padding-right: 5px;
+  font-weight: 450;
+  width: 4%;
+  vertical-align: middle;
+}
+#login-card {
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top:0px;
+  font-size: 15px; 
+  color:rgb(247, 244, 244); 
+  width: 100%; 
+  height: 7.2%; 
+  float: left;
+  background-color: #00505D;
+  font-weight: 400;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  
+}
+.meet-avatar{
+  margin-left: 42%;
+  margin-top: 5%;
+}
+.meet-avatar-logo{
+  padding: 0px;
+  width: 20%;
+}
+.chat-room {
+  margin-left: 48%;
+  margin-top: 18%;
+  font-size: 23px;
+  color: black;
+  font-weight: 700;
+}
+.login-button {
+  cursor: pointer;
+  color: white;
+  padding: 5px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-left: 42.5%;
+  margin-top: 2%;
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.google {
+  /*background-color: #4285f4;*/
+  background-color: #00505D;
+  color: white;
+}
+
+#loading-container {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgb(255, 255, 255, 0.22);
+}
+
+#loading-icon {
+  font-size: 66px;
+  position: relative;
+  left: calc(50vw - 33px);
+  top: calc(50vh - 22px);
+}
+ .ce-chat-title-text{
+  color: #00505D;
+  font-weight: 400;
+}
+.ce-chat-subtitle-text{
+  color: #00505D!important;
+}
+.ce-chat-subtitle-message{
+  color: #00505D!important;
+}
+#ce-send-message-button{
+  background-color:#00505D!important; 
+}
+.ce-chat-unread-dot{
+  background-color:#00505D!important; 
+}
+ .ce-primary-button{
+  background-color:#00505D!important; 
+}
+.ce-my-message-bubble{
+  background-color: #00505D!important;
+} 
+.ce-message-date-text{
+  color:#00505D!important; 
+}
+.ce-their-message-sender{
+  color:#00505D!important; 
+}
+#toolbar{
+  color: #00505D!important;
+}
+.anticon-menu{
+  color:#00505D!important; 
+}
+.anticon-setting{
+  color:#00505D!important; 
+}
+
+.ce-chats-container{
+  /* background-color: rgb(32, 32, 32)!important; */
+  border-radius: 0px!important;
+  /* color: white!important; */
+} */
+.ce-chat-card{
+  color: #00505D!important;
+}
+.ce-chat-form-container{
+  /* background-color: rgb(32, 32, 32)!important; */
+  color: #00505D!important;
+  font-weight: 400!important;
+  font-size: 20px!important;
+}
+.ce-chat-title{
+  /* background-color: rgb(32, 32, 32)!important; */
+  color: #00505D!important;
+}
+.ce-chat-title-container{
+  /* background-color: rgb(32, 32, 32)!important; */
+  color: #00505D!important;
+}
+#msg-form-container{
+  /* background-color: rgb(32, 32, 32)!important; */
+  color:#00505D;
+}
+/* .ce-active-chat-card{
+  background-color: rgb(58, 57, 57)!important ;
+} */
+.ce-text-input{
+  background-color:rgb(217, 217, 217)!important;
+  /* color:black; */
+  border-radius: 8px!important;
+  margin-bottom: 15px!important;
+  font-size: 15px!important;
+  font-weight: 400!important;
+}
+.ce-chat-settings-container {
+  background-color:rgb(217, 217, 217)!important;
+  /* color:black; */
+  border-radius: 8px!important;
+  margin-bottom: 5px!important;
+  font-size: 15px!important;
+  font-weight: 400!important; 
+ }
+.ce-person-title-container {
+  background-color:#00505D!important;
+  color:white;
+  border-radius: 8px!important;
+  margin-bottom: 5px!important;
+  font-size: 15px!important;
+  font-weight: 400!important;
+  
+}
+.ce-person-text{
+  color:#00505D;
+}
+/* #ce-add-username-input{
+  border-radius: 8px!important;
+  color: black!important;
+} */
+.ce-photo-title-container {
+  background-color:#00505D!important;
+  color:rgb(248, 240, 240);
+  border-radius: 8px!important;
+  margin-bottom: 5px!important;
+  font-size: 15px!important;
+  font-weight: 400!important;
+}
+#ce-options-drop-down{
+  background-color:#00505D!important;
+  color:rgb(255, 250, 250);
+  border-radius: 8px!important;
+  margin-bottom: 5px!important;
+  font-size: 15px!important;
+  font-weight: 400!important; 
+} 
+#ce-delete-chat-button{
+  background-color: #00505D!important;
+  color:rgb(248, 242, 242);
+  border: 2px solid rgb(255, 255, 255)!important;
+  border-radius: 8px!important;
+  margin-bottom: 5px!important;
+  font-size: 15px!important;
+  font-weight: 700!important; 
+}
