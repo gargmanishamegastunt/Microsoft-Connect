@@ -35,15 +35,15 @@ Note: In case you face security issues on redirection to the Video call, use thi
 ## Installation:
 Install Node.js from https://nodejs.org/en/
 * For video call
-``cd msconnect-vc``
-``npm init``
-``npm install express ejs socket.io uuid peer``
-``Npm install -g nodemon``
-``cd src``
-``Nodemon app.js``
+- ``cd msconnect-vc``
+- ``npm init``
+- ``npm install express ejs socket.io uuid peer``
+- ``Npm install -g nodemon``
+- ``cd src``
+- ``Nodemon app.js``
 * For chat room open new terminal,
-``cd chat engine chat``
-``npm install``
-``npm start``
+- ``cd chat engine chat``
+- ``npm install``
+- ``npm start``
 
 
