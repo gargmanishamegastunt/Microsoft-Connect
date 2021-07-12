@@ -4,6 +4,9 @@ From the chat platform users can start a video calling room and up to 4 people c
 
 Link to the app: https://msconnect.herokuapp.com/
 
+Note: In case you face security issues on redirection to the Video call, use this link : https://msconnect-vc.herokuapp.com/?room=alsdkfj_3993038088
+
+
 ## Features
 
 ### In the chat room include:
@@ -42,7 +45,5 @@ Install Node.js from https://nodejs.org/en/
 ``cd chat engine chat``
 ``npm install``
 ``npm start``
-
-Note: In case you face security issues on redirection to the Video call, use this link : https://msconnect-vc.herokuapp.com/?room=alsdkfj_3993038088
 
 
