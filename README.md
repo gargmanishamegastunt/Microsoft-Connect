@@ -1,6 +1,6 @@
 # Microsoft-Connect
 This app allows you to create chat rooms with multiple participants and exchange multimedia. The chat rooms use Firebase Google authentication and store the chats over time. 
-From the chat platform users can start a video calling room and up to 4 people can video call with each other.
+From the chat platform users can start a video calling room and up to 3 people can video call with each other.
 
 Link to the app: https://msconnect.herokuapp.com/
 
