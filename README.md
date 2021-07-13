@@ -46,4 +46,10 @@ Install Node.js from https://nodejs.org/en/
 - ``npm install``
 - ``npm start``
 
+## Screenshots:
+
+![WhatsApp Image 2021-07-13 at 7 30 47 PM](https://user-images.githubusercontent.com/57721834/125465796-34825a4f-a779-4668-b551-56602dbbac0b.jpeg)
+![WhatsApp Image 2021-07-13 at 7 30 37 PM](https://user-images.githubusercontent.com/57721834/125465790-fe58f180-bff3-4176-aef2-b41d6fe7e3bf.jpeg)
+![WhatsApp Image 2021-07-13 at 7 30 18 PM](https://user-images.githubusercontent.com/57721834/125465772-6c5add63-3b0f-4aa6-a01e-713f16781f59.jpeg)
+
 
